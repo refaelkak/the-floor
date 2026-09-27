@@ -10420,7 +10420,37 @@ const NhlTeamsCategory: CategoryMetadata = {
     { name: "Utah Mammoth", image: "utah-mammoth.png", alternatives: ["Mammoth"] },
   ],
 };
-
+const DessertsCategory: CategoryMetadata = {
+  name: "Desserts",
+  folder: "Desserts",
+  examples: [
+    {
+      name: "Croissant",
+      image: "croissant.jpg",
+      alternatives: ["קרואסון"],
+    },
+    {
+      name: "Eclair",
+      image: "eclair.webp",
+      alternatives: ["אקלר"],
+    },
+    {
+      name: "Lemon Tart",
+      image: "lemontart.jpg",
+      alternatives: ["פאי לימון", "טארט לימון"],
+    },
+    {
+      name: "Macaroon",
+      image: "Macroon.jpg",
+      alternatives: ["מקרון"],
+    },
+    {
+      name: "Mille-Feuille",
+      image: "milfuy.jpg",
+      alternatives: ["מילפיי", "קרמשניט"],
+    },
+  ],
+};
 // const ChilisCategory: CategoryMetadata = {
 //   name: "Chilis",
 //   folder: "chilis",
@@ -10428,6 +10458,7 @@ const NhlTeamsCategory: CategoryMetadata = {
 // };
 
 export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
+  "Desserts": DessertsCategory,
   "Airport Codes": AirportCodesCategory,
   "Amusement Parks": AmusementParksCategory,
   "Fruits": FruitsCategory,
