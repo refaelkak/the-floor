@@ -10509,5 +10509,5 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Time Tables": TimesTablesCategory,
   "Anime": AnimeCategory,
   "Minecraft": MinecraftCategory,
-  "EU Flags": EuropeanFlagsCategory,
+  "EU Flags": EuropeanFlagsCategory, 
 };
